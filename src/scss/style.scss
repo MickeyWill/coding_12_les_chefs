@@ -1,7 +1,74 @@
 @import '../scss/_variables';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../scss/icons';
-@import '../scss/fonts';
+@import './_icons.scss';
+@import './_fonts.scss';
+
+body{
+    font-family: police;
+}
 
 
+.container .row .col-12 .fuck{
+    filter: brightness(25%);
+}
+
+.container .row .col-12 .navbar{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.container .row .col-12 .navbar .collapse li{
+    border-top: solid grey 2px;
+    border-bottom: solid grey 2px;
+    display: flex;
+
+}
+
+.container .row .col-12 .navbar .collapse li a{
+    color: white;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.divlogo .logo{
+    margin: 0 40px;
+}
+
+
+.carousel{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+span{
+    font-size: 50px;
+}
+
+
+.titrecarousel{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttoncarousel{
+    margin-bottom: 250px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 0;
+    text-transform: uppercase;
+}
+
+
+.buttoncarousel2{
+    margin-bottom: 250px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: red;
+    border: 0;
+    text-transform: uppercase;
+
+}
+
+// 1ère section
 
