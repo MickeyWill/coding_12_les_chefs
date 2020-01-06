@@ -15755,7 +15755,7 @@ readers do not read off random characters that represent icons */
   font-family: "police";
   src: url("../../public/fonts/Courgette-Regular.ttf");
 }
-body {
+h1, h2, h3, span {
   font-family: police;
 }
 
@@ -15779,6 +15779,10 @@ body {
   align-self: center;
   border-top: solid grey 2px;
   border-bottom: solid grey 2px;
+}
+
+.nav-link:hover {
+  background-color: red;
 }
 
 .divlogo .logo {
@@ -15815,14 +15819,21 @@ span {
   text-transform: uppercase;
 }
 
+.containersection1 {
+  background-image: url("../../public/images/main_bg.jpg");
+  position: relative;
+}
+
 #section1 {
-  background-image: url(../../public/images/main_bg.jpg);
+  position: relative;
 }
 
 .ourstory {
   margin-top: 20px;
-  position: relative;
-  height: 1200px;
+}
+
+#test {
+  margin-bottom: 0px;
 }
 
 #box1 {
@@ -15863,6 +15874,7 @@ span {
   border: none;
   border-right: solid 3px lightgrey;
   border-bottom: solid 3px lightgrey;
+  font-size: 40px;
 }
 
 #list-tab a:hover {
@@ -15873,8 +15885,25 @@ span {
   color: red;
 }
 
-.menulist div div {
+.test {
   display: flex;
+}
+
+.coldemerde {
+  display: flex;
+  height: 150px;
+}
+
+.imgcafe {
+  height: 100px;
+}
+
+.jumbotron1 .container h3 {
+  font-size: 20px;
+}
+
+.jumbotron1 .container p {
+  font-size: 15px;
 }
 
 #section2 {
@@ -15895,10 +15924,10 @@ span {
 }
 
 #section3 {
-  height: 1500px;
+  background-image: url("../../public/images/main_bg.jpg");
 }
 
-.jumbotron {
+.bookyourtable {
   margin-left: 150px;
   background-image: url("../../public/images/book_table_bg.jpg");
   height: 600px;
@@ -15920,6 +15949,11 @@ span {
   background-color: red;
 }
 
+.ourblog {
+  height: 200px;
+  width: auto;
+}
+
 #section4 {
   background-image: url("../../public/images/testimonials_background.jpg");
   height: 500px;
@@ -15930,14 +15964,11 @@ span {
 }
 
 .testimonials1 {
-  border-radius: 50%;
   border: solid 4px white;
   height: 150px;
-  margin-left: 25px;
 }
 
 .testimonials2 {
-  border-radius: 50%;
   border: solid 4px white;
   height: 150px;
 }
@@ -15947,13 +15978,22 @@ span {
   border-radius: 10px;
 }
 
+.client {
+  display: flex;
+  margin-top: 100px;
+}
+
+.imgclient {
+  margin-left: 350px;
+}
+
 #section5 {
   background-image: url(../../public/images/main_bg.jpg);
 }
 
 .contact {
   background-color: red;
-  width: 50%;
+  width: 45%;
   margin-left: 300px;
   margin-top: 100px;
   border-radius: 10px;
@@ -15969,10 +16009,22 @@ hr {
   font-size: 30px;
 }
 
-footer .container {
+footer .containerfooter1 {
   background-image: url("../../public/images/footer_background.jpg");
   margin-top: 50px;
   padding-top: 50px;
+}
+
+.buttonfooter {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+}
+
+.containerfooter2 {
+  height: 50px;
+  width: auto;
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
